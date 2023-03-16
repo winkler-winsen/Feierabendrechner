@@ -7,8 +7,11 @@ Berechnet den Feierabend (GE Soll) anhand von Einstempeln (Kommen/KO), der tägl
 - Zeigt [10 Stunden-Maximal-Limit][ArbZG3] (inkl. [45 Minuten Pause][ArbZG4]) an, bevor die Arbeitszeit wg. Arbeitsschutzgesetzt nicht mehr gezählt wird. 
 
 ## Beispiel
+![Screenshot Google Chrome][Chrome]
+
 [https://winkler-winsen.de/lkh/time.php][1]
 
 [1]: https://winkler-winsen.de/lkh/time.php
 [ArbZG3]: https://www.gesetze-im-internet.de/arbzg/__3.html
 [ArbZG4]: https://www.gesetze-im-internet.de/arbzg/__4.html
+[Chrome]: https://raw.githubusercontent.com/winkler-winsen/Feierabendrechner/master/GoogleChome.png "Screenshot Google Chrome"
