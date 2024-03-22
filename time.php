@@ -104,6 +104,8 @@
         $h10 = date("H:i", strtotime($KO)+(10*60*60)+(45*60)); // add 10h + 45min;  
 
         $h9 = date("H:i", strtotime($KO)+(9*60*60)+(30*60)); // add 9h + 30min;
+	
+		$h6 = date("H:i", strtotime($KO)+(6*60*60)); // add 6h;
        ?>
 
        <!-- <form method="post">
@@ -136,6 +138,9 @@
 		  <td>Differenz:</td> <td align="right"><?php echo $diffSign; ?><input type="time" name="diff" disabled value="<?php echo $diff; ?>" > </td><td>Stunden</td><td></td></p>   
        </tr>
        <tr></tr>
+       <tr>
+		 <td><font color="grey">6h:</font></td> <td align="right"><input type="time" name="diff" disabled value="<?php echo $h6; ?>" > </td><td><font color="grey">Uhr</font></td><td></td></p>   
+       </tr>
        <tr>
 		 <td><font color="grey">9h:</font></td> <td align="right"><input type="time" name="diff" disabled value="<?php echo $h9; ?>" > </td><td><font color="grey">Uhr</font></td><td></td></p>   
        </tr>
